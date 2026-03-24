@@ -1,0 +1,11 @@
+{
+  "name": "prediction-markets-dashboard",
+  "private": true,
+  "scripts": {
+    "worker:refresh": "yarn --cwd worker refresh",
+    "worker:watch": "yarn --cwd worker watch",
+    "worker:typecheck": "yarn --cwd worker typecheck",
+    "web:dev": "yarn --cwd web dev",
+    "web:build": "yarn --cwd web build"
+  }
+}
